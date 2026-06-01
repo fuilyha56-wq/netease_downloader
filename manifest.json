@@ -1,0 +1,39 @@
+{
+    "name": "netease_downloader",
+    "version": "1.0.0",
+    "description": "网易云音乐下载插件，提供按需下载服务，支持 VIP 识别和精确搜索",
+    "author": "shiro2398731",
+    "categories": [
+        "tool"
+    ],
+    "tags": [
+        "download",
+        "netease",
+        "music",
+        "mp3"
+    ],
+    "dependencies": {
+        "plugins": [],
+        "components": []
+    },
+    "include": [
+        {
+            "component_type": "config",
+            "component_name": "config",
+            "dependencies": []
+        },
+        {
+            "component_type": "service",
+            "component_name": "downloader",
+            "dependencies": []
+        },
+        {
+            "component_type": "command",
+            "component_name": "test_download",
+            "dependencies": []
+        }
+    ],
+    "entry_point": "plugin.py",
+    "min_core_version": "1.0.0",
+    "display_name": "netease_downloader"
+}
